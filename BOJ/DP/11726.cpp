@@ -1,3 +1,5 @@
+//https://www.acmicpc.net/problem/11726
+
 #include <cstdio>
 int ans[1000] = {1, 2, };
 
