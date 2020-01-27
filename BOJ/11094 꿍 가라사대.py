@@ -1,4 +1,4 @@
-#https://www.acmicpc.net/problem/11049
+#https://www.acmicpc.net/problem/11094
 
 num = int(input())
 
