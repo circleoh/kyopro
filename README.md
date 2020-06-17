@@ -1,2 +1,3 @@
-# ProblemSolving
-codes from problem solving
+# KyoPro
+
+競技プログラミングアーカイブリポジトリ
