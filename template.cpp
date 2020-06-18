@@ -23,16 +23,18 @@ constexpr ld EPS = 10e-9;
 template<typename T>
 void read(T& a) {cin >> a;}
 template<typename T>
-void read(vector<T>& v, int n) {int tmp; REP(i, n){read(tmp); v.pb(tmp);};}
+void read(vector<T>& v, int n) {int tmp; REP(i, n) {read(tmp); v.pb(tmp);};}
 template<typename T, typename V>
 void read(pair<T, V>& p) {read(p.x); read(p.y);}
 template<typename T>
 void print(const T& a) {cout << a << "\n";}
-void print(char *s) {printf("%s\n", s);}
+void print(const char *s) {printf("%s\n", s);}
 template<typename T>
 void print_(const T& a) {cout << a << " ";}
 template<typename T>
-void print(const vector<T>& v) {for(auto &i : v) print_(i); cout<< "\n";}
+void print(const vector<T>& v) {for (const auto &i : v) print_(i); cout << "\n";}
+template<typename T, typename V>
+void print_(const vector<T>& v) {for (const auto &i : v) print_(i); cout << " ";}
 template<typename T, typename V>
 void print(const pair<T, V>& p) {print_(p.x); print(p.y);}
 template<typename T, typename V>
