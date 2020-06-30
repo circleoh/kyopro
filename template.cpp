@@ -1,5 +1,19 @@
 /////////////////////////////////////////////////////////////////////////
-#include <bits/stdc++.h>
+#include <set>
+#include <vector>
+#include <algorithm>
+#include <queue>
+#include <map>
+#include <cstdlib>
+#include <ctime>
+#include <string>
+#include <stack>
+#include <cmath>
+#include <iostream>
+#include <cstring>
+#include <complex>
+#include <iostream>
+#include <bits/stdc++.h> //if possible
 using namespace std;
 #define ll long long
 #define pi pair<int, int>
@@ -9,12 +23,12 @@ using namespace std;
 #define pb push_back
 #define mp make_pair
 #define endl "\n"
-#define FOR(i, START, END) for (int i = START; i < END; ++i)
-#define FORD(i, START, END) for (int i = START; i >= END; --i)
+#define FOR(in, START, END) for (int in = START; in < END; ++in)
+#define FORD(in, START, END) for (int in = START; in >= END; --in)
 #define VAR(i, n) __typeof(n) i = (n)
-#define FOREACH(i, CONT) for (VAR(i, (CONT).begin()); i != (CONT).end(); ++i)
-#define FOREACHD(i, CONT) for (VAR(i, (CONT).rbegin()); i != (CONT).rend(); ++i)
-#define REP(i, n) FOR(i, 0, n)
+#define FOR_EACH(it, CONT) for (VAR(it, (CONT).begin()); it != (CONT).end(); ++it)
+#define FOR_EACHD(it, CONT) for (VAR(it, (CONT).rbegin()); it != (CONT).rend(); ++it)
+#define REP(in, n) FOR(in, 0, n)
 #define CLR(a, x) memset(a, x, sizeof(a))
 #define SIZE(x) ((int)x.size())
 #define ld long double
